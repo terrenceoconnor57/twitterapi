@@ -10,7 +10,7 @@ class Twitter extends Component {
 
       return (
 
-        <div>Twitter</div>
+        <div>Twitter Data</div>
 
 
       )

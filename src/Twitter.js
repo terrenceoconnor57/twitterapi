@@ -40,10 +40,11 @@ componentDidMount = () => {
 
       return (
         <div>
+
+        <div className = "size">
         <div className = 'title'>
         Twitter Feed
         </div>
-        <div className = "size">
         {this.state.twitter.map(twit => (
 
 
@@ -52,10 +53,13 @@ componentDidMount = () => {
         <li className = 'items'>
         <div className = 'inlist'>
         <img src = {twit.image} className = "pic" />
-        <div>
-        <p>{twit.name}</p>
-        <p>{twit.screen_name}</p>
+        <div className = 'usercontainer'>
+        <p className = 'text'>{twit.name}</p>
+        <p className = 'text2'>{twit.screen_name}</p>
         </div>
+        </div>
+        <div className = 'wholetext'>
+        {twit.text}
         </div>
         </li>
         </ul>

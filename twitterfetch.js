@@ -13,7 +13,7 @@ var T = new Twitter(config);
 
 // Set up your search parameters
 var params = {
-  q: 'nfl players',
+  q: 'urology resident',
   count: 10,
   result_type: 'recent',
   lang: 'en'

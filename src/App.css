@@ -1,13 +1,16 @@
 .size {
   background: grey;
   width: 300px;
-  height: 600px;
+  height: auto;
   margin-right: 30px;
   margin-left: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
 }
 
 .title {
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   padding-top: 5px;
 }
@@ -18,9 +21,30 @@
 }
 
 .pic {
-  background: black;
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border-radius: 2px;
+
 }
 
 .inlist {
   display: flex;
+
+}
+
+.text {
+  font-family: 'Noto Sans HK', sans-serif;
+  line-height: 10px;
+}
+
+.usercontainer {
+  margin-top: 10px;
+
+}
+
+.wholetext {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-style: oblique;
 }
